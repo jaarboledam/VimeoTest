@@ -1,0 +1,33 @@
+@import "~bootstrap/scss/bootstrap-reboot";
+
+.header {
+  background-color: gray("300");
+  padding: .5rem 1rem;
+
+  &__title {
+    color: $purple;
+  }
+
+  &__brand {
+    align-items: center;
+    display: flex;
+
+    &:hover, &:focus, &:active {
+      text-decoration: none;
+    }
+
+    .brand__logo {
+      background: url('../../../assets/images/vt-logo.png') no-repeat top;
+      background-size: 35px;
+      background-position: 0 -35px;
+      height: 40px;
+      width: 40px;
+    }
+
+    .brand__name {
+      color: $purple;
+      font-weight: bold;
+      margin: 0;
+    }
+  }
+}

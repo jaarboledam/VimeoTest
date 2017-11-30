@@ -1,0 +1,8 @@
+// Override Bootstrap default variables
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+$font-family-base: 'Open Sans', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+
+html, body {
+  font-family: $font-family-base!important;
+}
